@@ -8,4 +8,8 @@ My model uses the structure from this [paper](https://arxiv.org/pdf/1910.01463v2
  [Normal_speaker1 ,Normal_speaker2,black_listed_speaker] 
  ```
  The Normal_speaker1 acts as anchor and the rest as positive and negative examples respectively.
+ 
+ ### Loss function
+  The standard loss function is 
+  ![](./Images/triplet_loss.png)
 
