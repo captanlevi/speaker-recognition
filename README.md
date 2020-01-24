@@ -14,7 +14,7 @@ My model uses the structure from this [paper](https://arxiv.org/pdf/1910.01463v2
   
   ![](./Images/trilpet_loss.png)  
   
-  But I use a different [loss_less](https://towardsdatascience.com/lossless-triplet-loss-7e932f990b24) loss function. For this to work we have to constrain the final layer of the model with a Sigmoid activation function.  
+  Where ```d``` is the L2 distance. But I use a different [loss_less](https://towardsdatascience.com/lossless-triplet-loss-7e932f990b24) loss function. For this to work we have to constrain the final layer of the model with a Sigmoid activation function.  
   
   The loss function used here is...  
   ![](./Images/loss_less.png)  
